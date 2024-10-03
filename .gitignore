@@ -1,25 +1,24 @@
-# CakePHP 3
+# My Files:
+my-notes.txt
 
-/vendor/*
-/config/app.php
+# General PHP related uneeded files:
+*.log
+*.cache
+*.tmp
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# OS generated files:
+.DS_Store
+Thumbs.db
 
-/logs/*
-!/logs/empty
+# IDE specific files (IntelliJ and Visual Studio Code)
+/.idea/
+/.vscode/
 
-# CakePHP 2
+# Backup files:
+*.bak
+*.orig
+*.swp
+*~
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# Environment variables
+.env
